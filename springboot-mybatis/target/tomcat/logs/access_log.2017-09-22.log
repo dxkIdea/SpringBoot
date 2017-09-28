@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [22/Sep/2017:19:38:32 +0800] "GET /spring HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [22/Sep/2017:19:38:32 +0800] "GET /spring/ HTTP/1.1" 200 217
+0:0:0:0:0:0:0:1 - - [22/Sep/2017:19:56:36 +0800] "GET /spring/addUser?id=2&name=simuda&age=18&password=123456 HTTP/1.1" 500 1086
+0:0:0:0:0:0:0:1 - - [22/Sep/2017:19:57:15 +0800] "GET /spring/addUser?id=3&name=simuda&age=18&password=123456 HTTP/1.1" 500 343
+0:0:0:0:0:0:0:1 - - [22/Sep/2017:19:58:06 +0800] "GET /spring/addUser?id=3&name=simuda&age=18&password=123456 HTTP/1.1" 500 1086
+0:0:0:0:0:0:0:1 - - [22/Sep/2017:19:58:10 +0800] "GET /spring/addUser?id=3&name=simuda&age=18&password=123456 HTTP/1.1" 500 1086
+0:0:0:0:0:0:0:1 - - [22/Sep/2017:19:59:18 +0800] "GET /spring/addUser?id=4&name=ouba&age=18&password=123456 HTTP/1.1" 200 11

@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.spring</groupId>
+    <artifactId>parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>springboot-websocket</artifactId>
+  <name>springboot-websocket</name>
+  <description>springboot-websocket整合练习</description>
+  <dependencies>
+  	<!-- Thymeleaf是一个JAVA库，一个XML/XHTML/HTML5的可扩展的模板引擎，并且它可以在WEB和非WEB环境下运行。 -->
+  	<!-- 功能类似JSP中的EL表达式，可能更加强大 -->
+  	<!-- <dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-thymeleaf</artifactId>
+	</dependency> -->
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-websocket</artifactId>
+	</dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.study.mapper.UserMapper">
+ 
+  <select id="findUserInfo" resultType="com.spring.study.entity.User">
+    select name,age,password from user;
+  </select>
+  
+  <insert id="insertUser" parameterType="com.spring.study.entity.User">
+  	<!-- INSERT INTO USER(ID,NAME,AGE,PASSWORD) VALUES(2,'zhengfei',18,'123456'); -->
+  	INSERT INTO USER(ID,NAME,AGE,PASSWORD)  VALUES(
+  													#{id},
+  													#{name},
+  													#{age},
+  													#{password}
+  	)
+  </insert>
+  
+ 
+ 
+</mapper>
